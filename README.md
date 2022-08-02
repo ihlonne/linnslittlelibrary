@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Linn's Little Library
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This book finder app is a project made to develop my skills as a React developer.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+### About
 
-### `npm start`
+This is a generator that pulls data from the [Google Books API](https://developers.google.com/books) and the [Google Firebase](https://firebase.google.com/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Users should be able to:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-   View the optimal layout for the app on Desktop.
+-   See hover states for interactive elements (search bar and search icon).
+-   Search for books by title or author.
+-   Generate a new quote by making a new search or refreshing the page.
+-   Click available links.
+-   See more results by using the pagination.
 
-### `npm test`
+### Links
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   Live Site URL: [Linn's Little Library](https://linnslittlelibrary.netlify.app/)
 
-### `npm run build`
+## My process
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Built with
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-   React
+-   Google Books API
+-   Google Firebase Realtime Database
+-   Material UI
+-   CSS custom properties
+-   Flexbox
+-   Asynchronous JavaScript
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### What I learned
 
-### `npm run eject`
+This is my first time making a React app that isn't from a tutorial so it's safe to say I learnt a lot.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+I have learnt how to fetch data with two different APIs, one from Google Books where I received data about volumes and one from Google Firebase where I received a random bookish quote from a Realtime Database made by me.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Not only have I learnt how to use React and to fetch data with APIs, I also used Material UI to build this project. This helped me learn how to read documentation and to do my own research.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Overall, I think this project has been an amazing learning experience. I gave myself one week to finish, and I managed in four days. I now feel more confident using React, APIs and Material UI.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Continued development
 
-## Learn More
+Ideas to improve the application:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-   Incorporate the option to add books to personal shelves.
+-   Add books to show immediately upon arriving to the page (maybe five latest releases, most popular, etc.).
+-   Switch to Goodreads' API.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## My process
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+A month ago, I hardly knew React; I had followed one tutorial but knew practically nothing.

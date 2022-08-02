@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6rem;
+}
+
+.title {
+    letter-spacing: -1px;
+}
+
+.title a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.title span {
+    font-family: 'The Nautigal', cursive;
+    font-size: 3rem;
+}
+
+.search {
+    position: relative;
+    border-radius: 4rem;
+    margin-left: 2rem;
+    background-color: #fff;
+    transition: 0.5s;
+    opacity: 0.6;
+}
+
+.search:hover {
+    opacity: 0.9;
+}
+
+.searchIcon {
+    background: transparent;
+    border: none;
+    padding: 0 0.75rem;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: flex-start;
+    color: #ccc;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.searchIcon:hover {
+    color: #7e57c2;
+}
+
+.inputInput {
+    padding-left: 2.75rem;
+    width: 100%;
+}

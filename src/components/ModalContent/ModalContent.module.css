@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: auto;
+    background: #fff;
+    border: 2px solid #0c0c0c;
+    padding: 2rem;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.description {
+    text-align: justify;
+    max-height: 200px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 0.95rem;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.button {
+    justify-content: flex-end;
+    width: auto;
+}
+
+.chip {
+    color: #0c0c0c;
+    width: auto;
+    margin: 10px 5px 5px 0;
+}
